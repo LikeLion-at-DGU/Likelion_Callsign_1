@@ -5,7 +5,7 @@ charset-normalizer==2.0.12
 cryptography==37.0.2
 defusedxml==0.7.1
 distlib==0.3.4
-Django==4.0.4
+Django==3.2.9
 django-allauth==0.50.0
 django-auth==0.1.9
 django-cors-headers==3.13.0
