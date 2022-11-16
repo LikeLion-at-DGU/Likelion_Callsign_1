@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Montserrat_EBI;
+    src: url(../font/Montserrat-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: NotoSansKR-Bold;
+    src: url(../font/NotoSansKR-Bold.otf);
+}
+
+@font-face {
+    font-family: NotoSansKR-Regular;
+    src: url(../font/NotoSansKR-Regular.otf);
+}
+
+body{
+    margin: 0px;
+}
+
+p{
+    text-align: left;
+    font-size: 40px;
+    border-bottom: solid 5px white;
+    margin-bottom: 80px;
+}
+
+label{
+    color: white;
+    align-items: left;
+    font-family: NotoSansKR-Bold;
+}
+
+input {
+    border : none;
+    background-color: #4B70F3;
+    padding: 30px 200px 30px 20px;
+    margin-bottom: 30px;
+    height: 40px;
+    font-size: 35px;
+    font-family: NotoSansKR-Bold;
+    color: white;
+}
+
+input::placeholder{
+    color: #4B70F3;
+}
+
+input:focus{
+    outline : none;
+    background-color: #4B70F3;
+    padding: 30px 200px 30px 20px;
+    margin-bottom: 30px;
+    height: 40px;
+    font-size: 35px;
+    color: white;
+    font-family: NotoSansKR-Bold;
+}
+
+.login_whole{
+    background-color: #4B70F3;
+    background-size: cover;
+    padding: 30px;
+    text-align: center;
+}
+
+#login_logo{
+    width: 450px;
+    margin: 350px 250px;
+
+}
+
+form{
+    margin: 0px 40px;
+}
+
+#login_button{
+    font-family: NotoSansKR-Bold;
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    color: #4B70F3;
+    width: 100%;
+    font-size: 38px;
+    height: 130px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#no_account{
+    font-family: NotoSansKR-Regular;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 200px;
+}

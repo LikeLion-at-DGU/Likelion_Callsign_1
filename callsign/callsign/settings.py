@@ -139,3 +139,4 @@ SITE_ID = 1
 
 # signup error 해결을 위해 추가
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' 
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
