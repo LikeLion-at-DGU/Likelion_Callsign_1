@@ -65,8 +65,8 @@ class Post(models.Model):
     pub_date = models.DateTimeField(auto_now=True, verbose_name="등록(수정)일")
     exercise = models.ForeignKey(Exercise, on_delete=models.CASCADE, blank=True, null=True)
     sex = models.ForeignKey(Sex, on_delete=models.CASCADE, blank=True, null=True) 
-    count = models.IntegerField(max_length = 30, null="True")
-    countB = models.IntegerField(max_length = 30, null="True")
+    count = models.IntegerField(null="True")
+    countB = models.IntegerField(null="True")
     flag_enddate = models.BooleanField(default=False)
     # 좋아요
     like_user_set = models.ManyToManyField(User, blank=True, related_name='likes_user_set',through='Like',null=True)
