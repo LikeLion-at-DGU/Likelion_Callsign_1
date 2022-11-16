@@ -69,7 +69,7 @@ class Post(models.Model):
     countB = models.IntegerField(null="True")
     flag_enddate = models.BooleanField(default=False)
     # 좋아요
-    like_user_set = models.ManyToManyField(User, blank=True, related_name='likes_user_set',through='Like',null=True)
+    like_user_set = models.ManyToManyField(User, blank=True, related_name='likes_user_set',through='Like')
     dislike_user_set = models.ManyToManyField(User, blank=True, related_name='dislikes_user_set',through='Dislike')
     # 같이 운동할 날짜
     start_date = models.DateField(auto_now=True,editable=True)
